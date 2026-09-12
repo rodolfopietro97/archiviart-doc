@@ -1,4 +1,4 @@
-# archiviart Documentation
+# Welcome to the official archiviart Documentation
 
 This project contains the documentation site for the archiviart ecosystem. It is built with MkDocs and the Material for MkDocs theme and is intended to serve as the central place for project documentation and developer-facing guides.
 
