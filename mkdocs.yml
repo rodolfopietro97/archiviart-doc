@@ -1,0 +1,51 @@
+site_name: archiviart
+site_author: Rodolfo Pietro Calabrò
+site_description: Documentation for the archiviart project
+repo_url: https://github.com/rodolfopietro97/archiviart-doc.git
+theme:
+  # Material theme configuration
+  name: material
+
+  # Fonts for the theme
+  font:
+    text: IBM Plex Sans
+    code: IBM Plex Mono
+
+  # Logo and favicon for the site
+  logo: assets/logo.png
+  favicon: assets/logo.png
+
+  # Color palette for the theme
+  palette:
+    # Dark mode color scheme
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Dark Mode
+      primary: black
+      accent: blue
+
+    # Light mode color scheme
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Light Mode
+      primary: white
+      accent: blue
+
+  # Theme features
+  features:
+    - navigation.footer
+
+# Extra configuration for the site
+extra:
+  # Disable site generator meta tag
+  generator: false
+
+  # Social media links
+  social:
+    - icon: material/linkedin
+      link: https://www.linkedin.com/in/rodolfopietro97/
+
+# Copyright on the footer
+copyright: Copyright &copy; 2026 Rodolfo Pietro Calabrò

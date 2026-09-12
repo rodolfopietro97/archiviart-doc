@@ -1,0 +1,42 @@
+{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "always"
+  },
+  "[xml]": {
+    "editor.defaultFormatter": "redhat.vscode-xml"
+  },
+  "[dotenv]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "[shellscript]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "[solidity]": {
+    "editor.defaultFormatter": "JuanBlanco.solidity"
+  },
+  "[ignore]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "[oracle-sql]": {
+    "editor.defaultFormatter": "Oracle.sql-developer"
+  },
+  "[toml]": {
+    "editor.defaultFormatter": "tamasfe.even-better-toml"
+  },
+  "[go]": {
+    "editor.defaultFormatter": "golang.go"
+  },
+  "python-envs.defaultEnvManager": "ms-python.python:pyenv",
+  "python-envs.pythonProjects": [],
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  "[sql]": {
+    "editor.defaultFormatter": "mtxr.sqltools"
+  },
+  "[gotmpl]": {
+    "editor.defaultFormatter": "tamasfe.even-better-toml"
+  }
+}

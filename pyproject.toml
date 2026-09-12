@@ -1,0 +1,5 @@
+[project]
+name = "archiviart-doc"
+version = "1.0.0"
+dependencies = ["mkdocs-material==9.7.*"]
+authors = [{ name = "Rodolfo Pietro Calabrò", email = "info@rodolfopietro.it" }]
