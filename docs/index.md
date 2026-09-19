@@ -15,3 +15,9 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
     docs/
         index.md  # The documentation homepage.
         ...       # Other markdown pages, images and other files.
+
+## Further Reading
+
+For more information, check out the [MkDocs documentation](https://www.mkdocs.org/user-guide/).
+
+pippo
