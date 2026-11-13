@@ -36,6 +36,37 @@ theme:
   # Theme features
   features:
     - navigation.footer
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - content.code.copy
+
+# Site navigation
+nav:
+  - Home: index.md
+  - Getting started: getting-started.md
+  - Architecture:
+      - architecture/index.md
+      - Operational flows: architecture/flows.md
+  - Database:
+      - ER diagram: database/er-diagram.md
+
+# Markdown extensions
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
 
 # Extra configuration for the site
 extra:

@@ -62,13 +62,23 @@ The live preview will reload automatically when you update the Markdown files.
 
 ```text
 archiviart-doc/
-├── .venv/              # Local Python virtual environment
-├── .vscode/            # Editor settings
-├── mkdocs.yml          # MkDocs configuration and site metadata
+├── .github/workflows/  # CI: deploys the site to GitHub Pages on push to main
+├── docs/
+│   ├── index.md            # Home: what Archiviart is, where to start
+│   ├── getting-started.md  # Run every module locally
+│   ├── architecture/
+│   │   ├── index.md        # Modules and their interactions
+│   │   └── flows.md        # Auth, refresh token, upload, download
+│   ├── database/
+│   │   └── er-diagram.md   # archiviart-core PostgreSQL schema
+│   └── assets/             # Logo and favicon
+├── mkdocs.yml          # Site configuration and navigation (nav)
 ├── pyproject.toml      # Python project metadata and dependencies
-├── README.md           # Project documentation
-└── ...                 # Documentation pages and assets
+└── README.md
 ```
+
+New pages must be added to `nav` in `mkdocs.yml`. Diagrams use Mermaid code
+blocks (```` ```mermaid ````).
 
 ## Configuration
 
